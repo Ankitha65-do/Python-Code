@@ -1,0 +1,6 @@
+#  Write a program to print the first 10 natural number in reverse order using while loop.
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+    
