@@ -3,14 +3,12 @@
 
 n = int(input("Enter the first number : "))
 m = int(input("Enter the Last Number : "))
-while n < m:
-    if n % 2 == 0:
-        print(n)
-        n += 1
-    else:
-        n += 1
-        print(n)
-        n += 1
+i = n + 1
+while i < m:
+    if i % 2 == 0:
+        print(i)
+    i += 1
+    
 
 
 
